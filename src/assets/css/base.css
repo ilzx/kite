@@ -63,6 +63,8 @@ footer a { color: #a5a4a4; }
 .cd-top.cd-is-visible { visibility: visible; opacity: 1; }
 .links { margin: 0 15px; text-decoration: underline }
 .mg-top-10{margin-top: 10px;}
+.mg-top-20{margin-top: 20px;}
+.mg-top-30{margin-top: 30px;}
 .sub-a{margin: 5px;}
 .nav-cat-row{display: block;text-align: center}
 .mg-lr-5{margin: 0 5px;}
@@ -114,3 +116,12 @@ footer a { color: #a5a4a4; }
     top: 16rem;
     width: 50px;}
 .article_panal>.at-badge{margin: 5px 0;}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 10px;
+}
+/* 滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+    background-color: #a1a3a9;
+    border-radius: 3px;
+}

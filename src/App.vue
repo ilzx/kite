@@ -16,5 +16,6 @@ export default {
 <style>
 .at-card__body{padding: 20px !important;}
 .slider-pagination-bullets {width: 15% !important;}
-body{background: #f3f5f7 !important;}
+body{background-image:url(assets/body.png)!important;background-repeat: repeat !important;background-attachment: fixed !important;background-position: center top !important;}
+#nprogress .bar {background: #6190e8 !important;}
 </style>

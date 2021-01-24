@@ -8,16 +8,12 @@ import './assets/css/base.css'
 import './assets/css/index.css'
 import './assets/css/fonts.css'
 import RaScrolltop from 'ra-scrolltop'
-import ScrollReveal from 'scrollreveal'
-import EasyBar from "easy-bar";
 import VueLazyload from 'vue-lazyload'
 import "github-markdown-css"
 
-Vue.use(EasyBar);
 Vue.config.productionTip = false
 Vue.use(AtComponents)
 Vue.use(RaScrolltop)
-Vue.prototype.$scrollReveal = ScrollReveal
 Vue.use(VueLazyload, {
   preLoad: 1.3,
   error: 'dist/error.png',

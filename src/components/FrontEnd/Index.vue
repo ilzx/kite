@@ -4,7 +4,7 @@
       <div class="col-md-17">
         <div class="subscribe-content-banner-head">
           <h1 style="color: #fd6260"><i class="iconfont icon-tubiao- hot-icon"></i></h1>
-          <a>历史封面文章 <i class="iconfont icon-you"></i></a>
+          <router-link to="/cover_article">历史封面文章 <i class="iconfont icon-you"></i></router-link>
         </div>
         <div style="width:100%;height:250px;">
           <!-- Using the slider component -->
@@ -95,7 +95,6 @@
             </ul>
           </div>
         </vueStickySidebar>
-
       </div>
     </article>
   </div>
