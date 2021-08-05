@@ -6,14 +6,14 @@
           <h1 style="color: #fd6260"><i class="iconfont icon-tubiao- hot-icon"></i></h1>
           <router-link to="/cover_article">历史封面文章 <i class="iconfont icon-you"></i></router-link>
         </div>
-        <div style="width:100%;height:250px;">
+        <div style="width:100%;height:270px;">
           <!-- Using the slider component -->
           <slider ref="slider" :options="options">
             <!-- slideritem wrapped package with the components you need -->
             <slideritem v-for="(item,index) in someList" :key="index" :style="item.style">
               <img class="no-right-key swiper-lazy swiper-lazy-loaded slider-img" :src="item.img">
               <div class="slider-title">
-                <a>{{item.title}}</a>
+                <router-link to="/1">{{item.title}}</router-link>
                 <div></div>
               </div>
             </slideritem>
@@ -120,10 +120,17 @@ export default {
           }
         },
         {
-          img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1597824877446&di=156d4a144c459ab8082dab9ce8b3b706&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F05%2F63%2F52%2F555b5d940a696f0.jpg%2521r850%2Ffw%2F800',
+          img: 'https://img.zcool.cn/community/01ee5b5541be46000001e78c526ad2.jpg@1280w_1l_2o_100sh.jpg',
           title: '面对生活我毫无办法，但可以做张meme取笑它',
           style: {
             'background': '#4bbfc3'
+          }
+        },
+        {
+          img: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3156567015,2696730006&fm=26&gp=0.jpg',
+          title: '还在「黑盒炼丹」？ 教你如何实现一行代码透视炼丹过程',
+          style: {
+            'background': '#7baabe'
           }
         },
         {
@@ -154,7 +161,6 @@ export default {
     slideritem,
     vueStickySidebar
   },mounted() {
-    this.$scrollReveal().reveal('.scrollreveal');
   }
 }
 </script>

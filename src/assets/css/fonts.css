@@ -2,3 +2,13 @@
     font-family: googleFont;
     src: url('../fonts/googlefont.TTF');
 }
+@font-face {
+  font-family: 'xiaowei';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_a4qjccgbyg.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_a4qjccgbyg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_a4qjccgbyg.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_a4qjccgbyg.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_a4qjccgbyg.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_a4qjccgbyg.svg#站酷小薇体') format('svg'); /* iOS 4.1- */
+}

@@ -1,5 +1,7 @@
 <template>
-  <div class="container">
+  <div class="container"
+       style="margin-top: 70px">
+
     <div class="timebox">
       <ul>
         <li><span>2018-06-17</span><i><a href="/" target="_blank">安静地做一个爱设计的女子</a></i></li>
@@ -30,8 +32,8 @@
 
 <script>
 export default {
-name: "Timemachine"
-}
+  name: "Timemachine",
+};
 </script>
 
 <style scoped>
