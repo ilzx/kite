@@ -10,10 +10,14 @@ import './assets/css/fonts.css'
 import RaScrolltop from 'ra-scrolltop'
 import VueLazyload from 'vue-lazyload'
 import "github-markdown-css"
+import TDesign from 'tdesign-vue';
+// 引入组件库全局样式资源
+import 'tdesign-vue/es/style/index.css';
 
 Vue.config.productionTip = false
 Vue.use(AtComponents)
 Vue.use(RaScrolltop)
+Vue.use(TDesign);
 Vue.use(VueLazyload, {
   preLoad: 1.3,
   error: 'dist/error.png',

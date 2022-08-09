@@ -242,38 +242,13 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
           <at-card :no-hover="true" class="mg-top-10">
             <h4 class="hot_title">目录</h4>
-            <at-menu active-name="1-1" inline-collapsed style="border: none;">
-              <at-submenu>
-                <template slot="title">导航菜单一</template>
-                <at-menu-item-group title="分组一">
-                  <at-menu-item name="1-1">子菜单一</at-menu-item>
-                  <at-menu-item name="1-2">子菜单二</at-menu-item>
-                </at-menu-item-group>
-                <at-menu-item-group title="分组二">
-                  <at-menu-item name="1-3">子菜单三</at-menu-item>
-                  <at-menu-item name="1-4">子菜单四</at-menu-item>
-                </at-menu-item-group>
-              </at-submenu>
-              <at-submenu>
-                <template slot="title"><i class="icon icon-life-buoy"></i>导航菜单二</template>
-                <at-menu-item name="2-1">子菜单一</at-menu-item>
-                <at-menu-item name="2-2">子菜单二</at-menu-item>
-                <at-menu-item name="2-3">子菜单三</at-menu-item>
-                <at-menu-item name="2-4">子菜单四</at-menu-item>
-              </at-submenu>
-              <at-submenu>
-                <template slot="title"><i class="icon icon-life-buoy"></i>导航菜单三</template>
-                <at-menu-item name="3-1">子菜单一</at-menu-item>
-                <at-menu-item name="3-2">子菜单二</at-menu-item>
-                <at-menu-item name="3-3">子菜单三</at-menu-item>
-                <at-menu-item name="3-4">子菜单四</at-menu-item>
-              </at-submenu>
-              <at-submenu>
-                <template slot="title"><i class="icon icon-life-buoy"></i>导航菜单四</template>
-                <at-menu-item name="4-1">子菜单一</at-menu-item>
-                <at-menu-item name="4-2">子菜单二</at-menu-item>
-              </at-submenu>
-            </at-menu>
+            <t-anchor :affixProps="{ offsetTop: 150 }">
+              <t-anchor-item href="#github-markdown-css-demo" title="基础锚点"></t-anchor-item>
+              <t-anchor-item href="#多级锚点" title="多级锚点"></t-anchor-item>
+              <t-anchor-item href="#指定容器锚点" title="指定容器锚点"></t-anchor-item>
+              <t-anchor-item href="#特定交互锚点" title="特定交互锚点"></t-anchor-item>
+              <t-anchor-item href="#不同尺寸的锚点" title="不同尺寸的锚点" />
+            </t-anchor>
           </at-card>
         </vueStickySidebar>
       </div>
